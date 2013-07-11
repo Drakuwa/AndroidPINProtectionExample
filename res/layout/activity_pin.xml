@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/SimpleTitle"
+        android:text="@string/enter_pin_number" />
+
+    <EditText
+        android:id="@+id/pin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:inputType="numberPassword"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <include
+        android:id="@+id/numpad"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        layout="@layout/number_keypad" />
+
+</LinearLayout>

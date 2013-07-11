@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="main_button_height">70dp</dimen>
+    <dimen name="main_devider_height">2dp</dimen>
+    <dimen name="title_padding">10dp</dimen>
+    <dimen name="icon_padding">5dp</dimen>
+    <dimen name="add_category_edittext">80dp</dimen>
+    <dimen name="add_transaction_edittext">120dp</dimen>
+    
+    <dimen name="textSize">14sp</dimen>
+    <dimen name="mediumTextSize">16sp</dimen>
+    <dimen name="titleTextSize">19sp</dimen>
+    <dimen name="smallTextSize">10sp</dimen>
+    
+    <dimen name="numpadTextSize">24sp</dimen>
+    <dimen name="numpadPadding">16sp</dimen>
+    
+    <dimen name="detailsTitleColumn">100dp</dimen>
+    <dimen name="list_margin">10dp</dimen>
+    <dimen name="list_divider_height">5dp</dimen>
+    <dimen name="list_inner_margin">5dp</dimen>
+    <dimen name="list_inner_vertical_margin">2dp</dimen>
+    <dimen name="list_picture_width">90dp</dimen>
+    <dimen name="list_picture_height">60dp</dimen>
+    <dimen name="separator">0.3dp</dimen>
+    <dimen name="progressBar">25dp</dimen>
+    <dimen name="detailsRibbonWidth">30dp</dimen>
+    <dimen name="detailsRibbonHeight">90dp</dimen>
+    <dimen name="tabFragmentPadding">10dp</dimen>
+    <dimen name="locationTextSize">16sp</dimen>
+    <dimen name="dateTextSize">14sp</dimen>
+    <dimen name="tabTextSize">12sp</dimen>
+    <dimen name="tabFragmentTextSize">20sp</dimen>
+
+</resources>

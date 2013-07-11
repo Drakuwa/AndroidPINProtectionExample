@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/separator"
+        android:background="@color/darkGrey" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/numpad1"
+            style="@style/NumpadElement"
+            android:text="@string/numpad1" />
+
+        <View
+            android:layout_width="@dimen/separator"
+            android:layout_height="fill_parent"
+            android:background="@color/darkGrey" />
+
+        <TextView
+            android:id="@+id/numpad2"
+            style="@style/NumpadElement"
+            android:text="@string/numpad2" />
+
+        <View
+            android:layout_width="@dimen/separator"
+            android:layout_height="fill_parent"
+            android:background="@color/darkGrey" />
+
+        <TextView
+            android:id="@+id/numpad3"
+            style="@style/NumpadElement"
+            android:text="@string/numpad3" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/separator"
+        android:background="@color/darkGrey" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/numpad4"
+            style="@style/NumpadElement"
+            android:text="@string/numpad4" />
+
+        <View
+            android:layout_width="@dimen/separator"
+            android:layout_height="fill_parent"
+            android:background="@color/darkGrey" />
+
+        <TextView
+            android:id="@+id/numpad5"
+            style="@style/NumpadElement"
+            android:text="@string/numpad5" />
+
+        <View
+            android:layout_width="@dimen/separator"
+            android:layout_height="fill_parent"
+            android:background="@color/darkGrey" />
+
+        <TextView
+            android:id="@+id/numpad6"
+            style="@style/NumpadElement"
+            android:text="@string/numpad6" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/separator"
+        android:background="@color/darkGrey" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/numpad7"
+            style="@style/NumpadElement"
+            android:text="@string/numpad7" />
+
+        <View
+            android:layout_width="@dimen/separator"
+            android:layout_height="fill_parent"
+            android:background="@color/darkGrey" />
+
+        <TextView
+            android:id="@+id/numpad8"
+            style="@style/NumpadElement"
+            android:text="@string/numpad8" />
+
+        <View
+            android:layout_width="@dimen/separator"
+            android:layout_height="fill_parent"
+            android:background="@color/darkGrey" />
+
+        <TextView
+            android:id="@+id/numpad9"
+            style="@style/NumpadElement"
+            android:text="@string/numpad9" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/separator"
+        android:background="@color/darkGrey" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/numpadDot"
+            style="@style/NumpadElement"
+            android:text="@string/numpadDot" />
+
+        <View
+            android:layout_width="@dimen/separator"
+            android:layout_height="fill_parent"
+            android:background="@color/darkGrey" />
+
+        <TextView
+            android:id="@+id/numpad0"
+            style="@style/NumpadElement"
+            android:text="@string/numpad0" />
+
+        <View
+            android:layout_width="@dimen/separator"
+            android:layout_height="fill_parent"
+            android:background="@color/darkGrey" />
+
+        <TextView
+            android:id="@+id/numpadBack"
+            style="@style/NumpadElement"
+            android:text="@string/numpadBack" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/separator"
+        android:background="@color/darkGrey" />
+
+</LinearLayout>
